@@ -1,0 +1,33 @@
+.App{
+ display: flex;
+ position: relative;
+}
+.MainPage{
+  position: fixed;
+    height: 99%;
+    left: 40%;
+    width: 53%;
+    overflow: hidden;
+}
+.paddingtw{
+  padding: 20px;
+}
+.SideBar {
+  position:fixed;
+  width:40%;
+}
+
+.inputBox{
+  left: 40%;
+  position: fixed;
+  min-width: 50%;
+}
+
+.text{
+  position: absolute;
+  text-align: justify;
+  margin-right: 20px;
+  margin-top: 50px;
+  height: 95%;
+  overflow: auto;
+}
